@@ -1,0 +1,401 @@
+body {
+  font-size: 62.5%;
+  font-family: ReithSans;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-family: ReithSans;
+  height: 40px;
+  width: 1248px;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 13px;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: content-box;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.logo {
+  width: 84px;
+  height: 24px;
+}
+
+.menu-item a {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  color: rgb(51, 51, 51);
+}
+
+.menu-item.big a {
+  padding-right: 80px;
+  padding-left: 20px;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  color: rgb(51, 51, 51);
+}
+
+.menu-item a:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #000;
+}
+
+.menu-item {
+  border-left: 1px solid #ccc;
+  position: relative;
+}
+
+.header2 {
+  width: 100%;
+  box-sizing: content-box;
+}
+
+.header-branding {
+  background-color: #bb1919;
+  height: 56px;
+}
+
+.header-logo {
+  max-width: 1248px;
+  margin: 0 auto;
+  padding-top: 13px;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: content-box;
+}
+
+.header-bottom {
+  font-family: ReithSans;
+  font-size: 13.3px;
+  background-color: #bb1919;
+  height: 36px;
+  color: #fff;
+  box-sizing: content-box;
+}
+
+.nav-bottom {
+  max-width: 1248px;
+  padding: 0 16px;
+  margin: 0 auto;
+  height: 36px;
+  box-sizing: content-box;
+}
+
+.menu2 {
+  list-style: none;
+  display: flex;
+  height: 36px;
+  align-items: center;
+  padding-left: 0;
+  box-sizing: content-box;
+}
+
+.menu2-item {
+  box-sizing: content-box;
+}
+
+.menu2-item a {
+  color: #fff;
+  padding-bottom: 7px;
+  padding-top: 8px;
+  display: block;
+  font-weight: 400;
+  line-height: 18px;
+  width: 100%;
+  box-sizing: content-box;
+  border-bottom: 4px solid transparent;
+  margin-top: -2px;
+}
+
+.menu2-item a:hover,
+.menu2-item a.selected {
+  text-decoration: none;
+  border-bottom: 4px solid #fff;
+}
+
+.menu2 .menu2-item:first-child span {
+  border-left: 0;
+  padding-left: 0;
+}
+
+.menu2-item span {
+  border-left: 1px solid #bb454f;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: content-box;
+}
+
+.section {
+  width: 1248px;
+  box-sizing: content-box;
+}
+
+.section-heading {
+  font-size: 1.25rem;
+  height: 45px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.section-heading div {
+  display: inline-block;
+  line-height: 28px;
+  text-decoration: none;
+  border-bottom: 3px solid #bb1919;
+}
+
+.main-top {
+  display: flex;
+  max-width: 1280px;
+}
+
+.left-main-top {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-main-top {
+  width: 60%;
+}
+
+.poster {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.col-3 {
+  width: 33%;
+  padding-left: 16px;
+  padding-bottom: 10px;
+}
+
+.news-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 30px;
+  color: #000;
+}
+
+.news-title-big {
+  font-weight: 700;
+  font-size: 26px;
+  margin-top: 16px;
+  color: #000;
+}
+
+.news {
+  margin-top: 10px;
+}
+
+.news-title-big:hover,
+.news-title:hover {
+  color: rgb(19, 128, 161);
+  text-decoration: underline;
+}
+
+.news-summary {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 10px;
+  color: rgb(90, 90, 90);
+}
+
+.news-bullet {
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+.news-bullet-link {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgb(30, 30, 30);
+}
+
+.news-bullet-link:hover {
+  color: rgb(19, 128, 161);
+  text-decoration: underline;
+}
+
+.clock-icon {
+  width: 10px;
+  height: 10px;
+  display: block;
+}
+
+.news-subtitle-section {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  font-size: 13px;
+  color: rgb(34, 34, 34);
+}
+
+.news-subtitle-section li:first-child {
+  margin-left: 0;
+}
+
+.news-subtitle-section li {
+  padding-right: 5px;
+}
+
+.news-subtitle-section li:nth-child(2) {
+  border-right: 1px solid #dbdbdb;
+}
+
+.news-subtitle-section li:nth-child(3) {
+  margin-left: 5px;
+}
+
+.news-col-3 {
+  position: relative;
+  height: 100%;
+}
+
+.news-col-3-section {
+  position: absolute;
+  bottom: -5px;
+}
+
+.col-3 .news-summary {
+  margin-bottom: 45px;
+}
+
+.search {
+  border-left: 1px solid #cdcdcd;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  height: 40px;
+}
+.search-input {
+  position: relative;
+  border: 0;
+}
+
+.sign-in-icon {
+  background-image: url(images/sign-in.svg);
+  background-size: 22px;
+  background-position: 14px 11px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.sign-in-icon .sign-in-icon-text {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.menu-item .sign-in-icon-text:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #18b;
+}
+
+.input-search-input {
+  border: 0;
+  height: 24px;
+  background-color: #e4e4e4;
+  padding-left: 5px;
+}
+
+.input-search-input::placeholder {
+  color: #333;
+  font-weight: bold;
+}
+
+.search-icon {
+  background-image: url("images/search-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 15px;
+  top: 4px;
+}
+
+.more-button::after {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  content: "";
+  height: 0;
+  position: relative;
+  right: 4px;
+  top: 11px;
+  width: 0;
+}
+
+.orb-icon-arrow {
+  width: 6px;
+  height: 3px;
+  background-image: url(images/orb.gif);
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: 20px;
+}
+
+.menu2-item:last-child {
+  position: relative;
+}
+
+.menu2-item:last-child {
+  padding-left: 10px;
+}
+
+.menu2-item:last-child a:hover {
+  background-color: #000;
+  border-bottom: 4px solid transparent;
+  border-left: 0;
+}
+
+.menu2-item:last-child a:hover span {
+  border-left: 0;
+}
+
+.more-btn {
+  padding-right: 7px;
+}
+
+.more-btn::after {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #fff;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 0px;
+  top: 14px;
+  width: 0;
+}
