@@ -41,7 +41,14 @@ body {
   height: 24px;
 }
 
-.menu-item a {
+.menu-item a,
+.menu-item-news a,
+.menu-item-sport a,
+.menu-item-reel a,
+.menu-item-worklife a,
+.menu-item-travel a,
+.menu-item-future a,
+.menu-item-culture a {
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 6px;
@@ -62,7 +69,45 @@ body {
   border-bottom: 4px solid #000;
 }
 
-.menu-item {
+.menu-item-news a:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #bb1919;
+}
+
+.menu-item-sport a:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #ffd230;
+}
+
+.menu-item-reel a:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #0068ff;
+}
+.menu-item-worklife a:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #0052a1;
+}
+.menu-item-travel a:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #589e50;
+}
+.menu-item-future a:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #002856;
+}
+.menu-item-culture a:hover {
+  text-decoration: none;
+  border-bottom: 4px solid #482878;
+}
+
+.menu-item,
+.menu-item-news,
+.menu-item-sport,
+.menu-item-reel,
+.menu-item-worklife,
+.menu-item-travel,
+.menu-item-future,
+.menu-item-culture {
   border-left: 1px solid #ccc;
   position: relative;
 }
